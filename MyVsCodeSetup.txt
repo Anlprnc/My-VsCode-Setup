@@ -1,0 +1,73 @@
+{
+  "editor.fontFamily": "'Maple Mono NF', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "codeium.enableCodeLens": false,
+  "explorer.autoReveal": true,
+  // "workbench.colorCustomizations": {
+  //   "activityBar.background": "#151515",
+  //   "statusBar.background": "#151515",
+  //   "sideBar.border": "#151515",
+  //   "activityBar.border": "#151515"
+  // },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[django-html]": {
+    "editor.formatOnSave": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#8e1b1f",
+    "editorBracketHighlight.foreground2": "#8e1b1f",
+    "editorBracketHighlight.foreground3": "#8e1b1f",
+    "editorLineNumber.foreground": "#68181b",
+    "editorLineNumber.activeForeground": "#8e1b1f"
+  },
+  "terminal.integrated.env.windows": {},
+  "editor.lineNumbers": "relative",
+  "workbench.activityBar.location": "top",
+  // "apc.listRow": {
+  //   "fontSize": 15,
+  // },
+  "codeium.detectProxy": false,
+  "codeium.enableConfig": {
+    "*": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#1b85d0"
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#1b85d0"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite.jsx",
+        "settings": {
+          "foreground": "#1b85d0"
+        }
+      }
+    ]
+  },
+  "explorer.compactFolders": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Haki Neosolarized V3"
+}
